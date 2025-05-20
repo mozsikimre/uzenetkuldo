@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\server\\chatwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|solutionrelative:server\\chatwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|c:\\users\\imi\\desktop\\tavkozlo\\szerver\\server\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|solutionrelative:server\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\server\\modernbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|solutionrelative:server\\modernbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\server\\chatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6D0B9C3B-EFB7-4F0B-9074-4D4CE2D56236}|Server\\Server.csproj|solutionrelative:server\\chatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModernButton.xaml",
+              "DocumentMoniker": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\ModernButton.xaml",
+              "RelativeDocumentMoniker": "Server\\ModernButton.xaml",
+              "ToolTip": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\ModernButton.xaml",
+              "RelativeToolTip": "Server\\ModernButton.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T21:18:39.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Server\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Server\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAASwFYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:18:38.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\ChatWindow.xaml",
+              "RelativeDocumentMoniker": "Server\\ChatWindow.xaml",
+              "ToolTip": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\ChatWindow.xaml",
+              "RelativeToolTip": "Server\\ChatWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T20:28:20.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\ChatWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Server\\ChatWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Imi\\Desktop\\Tavkozlo\\Szerver\\Server\\ChatWindow.xaml.cs",
+              "RelativeToolTip": "Server\\ChatWindow.xaml.cs",
+              "ViewState": "AQIAAEEBAAAAAAAAAAAQwFoBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:00:53.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

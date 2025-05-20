@@ -1,0 +1,165 @@
+﻿<Window x:Class="UserInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="360"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        MouseDown="Window_MouseDown"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Border CornerRadius="15" Grid.RowSpan="3">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#614385"/>
+                    <GradientStop Color="#516395"
+                                  Offset="1"
+                                  />
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <Border CornerRadius="15" Grid.Row="1" Margin="20 20 20 20">
+            <Border.Background>
+                <SolidColorBrush Color="#B8B1C1" Opacity="0.5"/>
+            </Border.Background>
+        </Border>
+
+        <!-- Első Sor: Szöveg -->
+
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Welcome"
+                       Foreground="White"
+                       FontFamily="Helvetica"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       />
+        </StackPanel>
+
+        <!-- Második Sor: Bejelentkezési információk -->
+
+        <StackPanel Grid.Row="1">
+            <StackPanel Margin="10">
+                <!-- Margin hozzáadva a belső elemek elmozdításához a keret belsejében -->
+                <Image Source="C:\Users\Imi\Desktop\UserInterface\Resources\graduation.png"
+                   Width="120"
+                   Height="120"
+                   Margin="0 40 0 40"
+                   Opacity="0.8"
+                   />
+
+                <!-- Szöveg: Username -->
+                <TextBox FontFamily="Helvetica"
+                         FontWeight="Light"
+                         FontSize="16"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Text="Username"
+                         Foreground="White"
+                         Width="280"
+                         Height="25"
+                         />
+                
+                <!-- Fehér háttér, Bejelentkező ikon -->
+                <Border Width="280"
+                        Height="30"
+                        CornerRadius="6">
+
+                    <Border.Background>
+                        <SolidColorBrush Color="#D9D9D9" Opacity="0.5"/>
+                    </Border.Background>
+
+                    <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Left">
+                        <TextBox x:Name="MyTextBox" 
+                         FontFamily="Helvetica"
+                         FontWeight="Light"
+                         FontSize="16"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Foreground="Black"
+                         Padding="5 5 0 0"
+                         Width="250"
+                         Height="30"
+                         />
+                        <Image Source="C:\Users\Imi\Desktop\UserInterface\Resources\user.png" Width="20"/>
+                    </StackPanel>
+                    
+                </Border>
+                
+                <!-- Szöveg: Password -->
+                <TextBox FontFamily="Helvetica"
+                         FontWeight="Light"
+                         FontSize="16"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Text="Password"
+                         Foreground="White"
+                         Width="280"
+                         Height="25"
+                         Margin="0 15 0 0"
+                         />
+                
+                <!-- Fehér háttér, Bejelentkező ikon -->
+                <Border Width="280"
+                        Height="30"
+                        CornerRadius="6">
+
+                    <Border.Background>
+                        <SolidColorBrush Color="#D9D9D9" Opacity="0.5"/>
+                    </Border.Background>
+
+                    <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Left">
+                        <PasswordBox x:Name="MyPasswordBox" 
+                             FontFamily="Helvetica"
+                             FontWeight="Light"
+                             FontSize="16"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Password=""
+                             Foreground="Black"
+                             Padding="5 5 0 0"
+                             Width="250"
+                             Height="30"
+                             />
+                        <Image Source="C:\Users\Imi\Desktop\UserInterface\Resources\padlock.png"
+                       Width="20"
+                       />
+                    </StackPanel>
+
+                </Border>
+
+
+            </StackPanel>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Top" Margin="0 20">
+            <Button x:Name="LoginButton"
+            Content="LOGIN"
+            Click="LoginButton_Click"
+            Width="130"
+            Height="40"
+            Margin="20 0 55 0"
+            />
+            <Button Content="REGISTER"
+            Click="RegisterButton_Click"
+                    
+            Width="130"
+            Height="40"/>
+        </StackPanel>
+    </Grid>
+</Window>
